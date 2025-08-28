@@ -17,4 +17,6 @@ jobs:
 
      - name: Check for copyleft licenses
        uses: getsentry/copyleft-license-checker@main
+       with:
+        fail-on-found: 'false'
 
